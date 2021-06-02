@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="世界杯预测"
+        android:gravity="center"
+        android:textSize = "30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width = "70dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="小组: "
+                android:gravity="center"
+                />
+            <Spinner
+                android:id = "@+id/group"
+                android:layout_width = "200dp"
+                android:layout_height="match_parent"
+                android:entries="@array/teams"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text="主队："
+                android:gravity="center"
+                android:textSize="20sp"
+                />
+            <Spinner
+                android:id = "@+id/homeTeam"
+                android:layout_width = "200dp"
+                android:gravity="center"
+                android:layout_height = "match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width = "70dp"
+                android:layout_height="match_parent"
+                android:text="客队："
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+            <Spinner
+                android:id = "@+id/guestTeam"
+                android:layout_width = "200dp"
+                android:layout_height = "match_parent"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="比赛结果: "
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:id="@+id/prediction"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="主队胜" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="平局" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="客队胜" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="确定" />
+
+    </LinearLayout>
+</LinearLayout>

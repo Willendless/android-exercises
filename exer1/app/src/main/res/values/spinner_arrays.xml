@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="america">
+        <item>巴西队</item>
+        <item>美国队</item>
+        <item>阿根廷队</item>
+    </string-array>
+
+    <string-array name="asia">
+        <item>日本队</item>
+        <item>韩国队</item>
+        <item>中国队</item>
+    </string-array>
+
+    <string-array name="europe">
+        <item>德国队</item>
+        <item>法国队</item>
+        <item>英国队</item>
+        <item>西班牙队</item>
+    </string-array>
+
+    <string-array name="teams">
+        <item>美洲</item>
+        <item>欧洲</item>
+        <item>亚洲</item>
+        <item></item>
+    </string-array>
+</resources>
