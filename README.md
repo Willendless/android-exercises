@@ -4,4 +4,7 @@
 
 ## 要点记录
 
-+ [ ] Exer1: 活动切换，生命周期，表单
++ [x] Exer1
+  + 活动切换
+  + Linearlayout; 下拉框spinner、ArrayAdapter; 单选框RadioGroup
+  + 生命周期
