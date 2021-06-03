@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import kotlinx.android.synthetic.main.activity_result.*
 import kotlinx.android.synthetic.main.activity_result.group
@@ -24,8 +25,34 @@ class ResultActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        Log.d("lifecycle", "on resume")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("lifecycle", "on stop")
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("lifecycle", "on start")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("lifecycle", "on pause")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("lifecycle", "on destroy")
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d("lifecycle", "on create")
         setContentView(R.layout.activity_result)
         group.text = intent.getStringExtra("group")
         homeTeam.text = intent.getStringExtra("homeTeam")
