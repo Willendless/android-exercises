@@ -8,3 +8,6 @@
   + 活动切换
   + Linearlayout; 下拉框spinner、ArrayAdapter; 单选框RadioGroup
   + 生命周期
++ [x] Exer2
+  + 强行建立Http连接
+  + json对象的parse
