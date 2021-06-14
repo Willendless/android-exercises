@@ -11,3 +11,8 @@
 + [x] Exer2
   + 强行建立Http连接
   + json对象的parse
++ [x] Exer3
+  + 运行时权限获取
+  + 通过content Provider通讯录信息多表查询
+  + 通过Intent拨打电话
+  + ListView简单使用
