@@ -16,3 +16,7 @@
   + 通过content Provider通讯录信息多表查询
   + 通过Intent拨打电话
   + ListView简单使用
++ [x] Exer4
+  + 地图jar包和环境配置，地图权限获取
+  + 位置信息获取: LocationClient
+  + 地图view更新: mapView.map.animateMapStatus(LatLng)
