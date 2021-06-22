@@ -23,3 +23,6 @@
 + [x] Exer5
   + (显示/隐式)广播，广播接收者的(静态/动态)注册
   + 通知channel注册、通知跳转: pendingIntent
++ [x] Exer6
+  + 左滑菜单: DrawerLayout
+  + webview: 强行许可Http连接
