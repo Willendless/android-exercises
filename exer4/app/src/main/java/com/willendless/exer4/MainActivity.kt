@@ -66,9 +66,8 @@ class MainActivity : AppCompatActivity() {
             // 每5s更新一次
             setScanSpan(5000)
             locationMode = LocationClientOption.LocationMode.Hight_Accuracy
+            openGps = true
             setIsNeedAddress(true)
-            setIsNeedLocationDescribe(true)
-            setIsNeedLocationPoiList(true)
         }
         locationClient.start()
     }
@@ -152,7 +151,7 @@ class MainActivity : AppCompatActivity() {
                     locationText.append("GPS")
                 else if (p0.locType == BDLocation.TypeNetWorkLocation)
                     locationText.append("网络")
-
+                Log.d("current location", locationText.toString())
                 textView.text = locationText
                 navigateTo(p0)
             }
