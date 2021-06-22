@@ -20,3 +20,6 @@
   + 地图jar包和环境配置，地图权限获取
   + 位置信息获取: LocationClient
   + 地图view更新: mapView.map.animateMapStatus(LatLng)
++ [x] Exer5
+  + (显示/隐式)广播，广播接收者的(静态/动态)注册
+  + 通知channel注册、通知跳转: pendingIntent
