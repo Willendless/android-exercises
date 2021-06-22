@@ -26,3 +26,6 @@
 + [x] Exer6
   + 左滑菜单: DrawerLayout
   + webview: 强行许可Http连接
++ [x] Exer7
+  + service
+  + service中子线程周期性向主线程发送ui更新命令，同时同步退出
