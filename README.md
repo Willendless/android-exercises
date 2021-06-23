@@ -29,3 +29,7 @@
 + [x] Exer7
   + service
   + service中子线程周期性向主线程发送ui更新命令，同时同步退出
++ [x] Exer8
+  + RecyclerView使用
+  + 文件存储
+  + AlterDialog简单使用
