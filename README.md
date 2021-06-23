@@ -33,3 +33,7 @@
   + RecyclerView使用
   + 文件存储
   + AlterDialog简单使用
++ [x] Exer9
+  + 数据库curd
+  + 权限
+  + 通讯录访问
