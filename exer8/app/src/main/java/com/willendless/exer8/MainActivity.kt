@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.let {
             it.layoutManager = LinearLayoutManager(this)
-            it.adapter = LogItemAdapter(logItems, it)
+            it.adapter = LogItemAdapter(this, logItems)
         }
     }
 }
