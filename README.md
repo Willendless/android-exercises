@@ -37,3 +37,6 @@
   + 数据库curd
   + 权限
   + 通讯录访问
++ [x] Exer11
+  + 数据库curd
+  + service和activity通过binder通信，同时子线程同步退出
