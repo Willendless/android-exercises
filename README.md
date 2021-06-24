@@ -2,6 +2,26 @@
 
 这里记录了我21年春季学期（大四下）在ECNU上移动应用开发课（Android）的期末复习练习。
 
++ activity
+  + manifest注册
++ content provider
+  + 通信录: contentResolver
++ service
+  + manifest注册
+  + onCreate
+  + onStartCommand
+  + onDestroy
+  + 通过binder通信
++ 广播
+  + 注册
+  + BroadcastReceiver: onReceive
++ 通知
+  + NotificationManager: 注册通知、notify
+  + pendingIntent
+  + NotificationCompat
++ 数据库
+  + SQLiteOpenHelper
+
 ## 要点记录
 
 + [x] Exer1
