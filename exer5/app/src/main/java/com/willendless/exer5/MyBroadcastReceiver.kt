@@ -18,7 +18,7 @@ class MyBroadcastReceiver: BroadcastReceiver() {
         val notificationIntent = Intent(context, MainActivity2::class.java)
         notificationIntent.putExtra("key1", key1)
         notificationIntent.putExtra("key2", key2)
-        val pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0)
+        val pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT)
         val notification = NotificationCompat.Builder(context!!, "normal")
             .setContentTitle("这是一条通知")
             .setContentText("点击可以跳转到Activity B")
