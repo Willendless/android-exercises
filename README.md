@@ -21,6 +21,9 @@
   + NotificationCompat
 + 数据库
   + SQLiteOpenHelper
++ fragment
+  + 实例化
+  + fragmentManager通过事务添加fragment
 
 ## 要点记录
 
